@@ -1,7 +1,8 @@
 
 function NavbarHeader() {
   return (
-    <div className="navbar bg-transparent font-bold">
+    <>
+    <div className="navbar font-bold -z-20">
     
     <div className="navbar-start">
       <div className="dropdown">
@@ -73,11 +74,12 @@ function NavbarHeader() {
     <a><button className="btn text-white btn-outline bg-[#be7d69] hover:bg-white hover:border-white hover:text-black col-span-1">LET'S TALK</button></a>
     
     </div>
-    {/* <div className="bg-black p-20 box-color-bg">
-
-        
-    </div> */}
+    
+   
   </div>
+ 
+       
+  </>
   )
 }
 
