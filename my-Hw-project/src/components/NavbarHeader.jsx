@@ -2,35 +2,10 @@
 function NavbarHeader() {
   return (
     <>
-    <div className="navbar font-bold -z-20">
+    <div className="navbar font-bold">
     
-    <div className="navbar-start">
-      <div className="dropdown">
-        <div tabIndex={0} role="button" className="btn btn-ghost  lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
-        </div>
-        <ul
-          tabIndex={0}
-          className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-           <li><a>HOME</a></li>
-        <li><a>ABOUT</a></li>
-        <li><a>REVIEWS</a></li>
-        <li><a>VIDEOS</a></li>
-        <li><a>CONTACT</a></li>
-
-        </ul>
-      </div>
+    <div className="navbar-start ">
+      
       <aside>
                     <img
                         width="50"
@@ -53,8 +28,8 @@ function NavbarHeader() {
       </ul>
     </div>
     
-    <div className="navbar-end gap-3">
-    <div className="grid grid-flow-col gap-4">
+    <div className="navbar-end gap-3 invisible lg:visible">
+    <div className="grid grid-flow-col gap-4 ">
                         <a>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-youtube text-[#f5f5f5]" viewBox="0 0 16 16">
                                 <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
@@ -75,7 +50,28 @@ function NavbarHeader() {
     
     </div>
     
-   
+    <div className="dropdown ">
+        <div tabIndex={0} role="button" className="btn btn-circle   lg:hidden bg-[#c99484] hover:bg-[#c99484] " x->
+       
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.853" height="12" viewBox="0 0 18.853 12">
+                <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(-4.5 -8)">
+                    <path id="Path_3" data-name="Path 3" d="M4.5,18H23.353" transform="translate(0 -4)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+                    <path id="Path_4" data-name="Path 4" d="M4.5,9H23.353" transform="translate(0)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+                    <path id="Path_5" data-name="Path 5" d="M4.5,27H23.353" transform="translate(0 -8)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+                </g>
+            </svg>
+        </div>
+        <ul
+          tabIndex={0}
+          className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+           <li><a>HOME</a></li>
+        <li><a>ABOUT</a></li>
+        <li><a>REVIEWS</a></li>
+        <li><a>VIDEOS</a></li>
+        <li><a>CONTACT</a></li>
+
+        </ul>
+      </div>
   </div>
  
        
