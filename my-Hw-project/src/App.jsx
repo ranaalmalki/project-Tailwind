@@ -1,5 +1,6 @@
 import NavbarHeader from './components/NavbarHeader'
 import Welcome from './components/Welcome'
+import LatestReviews from './components/LatestReviews'
 import LatestVideos from './components/LatestVideos'
 import Join from './components/Join'
 import Footer from './components/Footer'
@@ -11,6 +12,7 @@ function App() {
     <>
     <NavbarHeader/>
     <Welcome/>
+<LatestReviews/>
 <LatestVideos/>
 <Join/>
       <Footer/>
