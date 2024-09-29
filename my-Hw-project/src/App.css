@@ -19,6 +19,20 @@ right: 0;
  background-position: 60vw 0;
  
 }
+
+.backgroundimg-about{
+  background-image: url("https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-about-header-bg-img.jpg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: 60vw 0;
+ 
+}
+.backgroundvideo{
+background-image: url(https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-about-video-img.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
 body{
   /* background-color: #f5f5f5 ; */
 }

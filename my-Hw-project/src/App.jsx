@@ -8,6 +8,7 @@ import Join from './components/Join'
 import Footer from './components/Footer'
 import './App.css'
 import Contact from './components/Contact'
+import About from './components/About'
 
 function App() {
 
@@ -21,7 +22,9 @@ function App() {
       <LatestVideos />
       <Join />
       <Footer /> */}
-      <Contact/>
+      {/* <Contact/> */}
+      <About/>
+
     </>
   )
 }
