@@ -37,9 +37,9 @@ function Contact() {
 <p>mail@example.com</p>
 
                 </div>
-                <div className="card h-96 shadow-lg shadow-black bg-white">
+                <div className="card h-full shadow-lg shadow-black bg-white">
                     <div className="card-body">
-                    <h1>Let's Talk</h1>
+                    <h1 className="text-3xl">Let's Talk</h1>
                 <label className="input input-bordered flex items-center gap-2">
   Name
   <input type="text" className="grow" placeholder="Daisy" />
@@ -57,7 +57,7 @@ function Contact() {
     </label>
 <textarea className="textarea textarea-ghost" placeholder="Bio"></textarea>
 
-<div className="card-actions justify-end">
+<div className="card-actions">
                 <button className="btn text-[#be7d69] bg-white hover:bg-[#be7d69] hover:text-white col-span-1">Send Message</button>
                 </div>
 </div>

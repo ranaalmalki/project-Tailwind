@@ -11,10 +11,12 @@ function About() {
        
             {/* className="attachment-full size-full wp-image-24" */}
         
-            <div className="card lg:card-side bg-none  relative -left-8 md:card">
+            <div className="card lg:card-side bg-none  relative -left-7 md:card ">
                 <div className="card-body">
-                <h1 className="card-title text-7xl">Contact</h1>
-<p className="card-text">Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra, ac porttitor orci.</p>
+                <h1 className="card-title text-7xl">
+About Me
+</h1>
+<p className="card-text w-96">Diam urna ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam rhoncus, mollis arcu pharetra quis duis morbi a nunc diam mauris ut tortor.</p>
 <div className="grid grid-flow-col justify-start">
 <svg className="text-[#be7d69]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
