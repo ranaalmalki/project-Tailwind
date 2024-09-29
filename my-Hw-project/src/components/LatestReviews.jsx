@@ -1,10 +1,13 @@
 import Card from "./Card"
 function LatestReviews() {
   return (
-    <div className="justify-center grid">
+    <div className="justify-center grid ">
+      <div className="flex  flex-wrap justify-between">
         <h1 className="font-bold text-4xl">Latest Reviews</h1>
-
-    <div className="grid grid-flow-col">
+        
+                <button className="btn text-[#be7d69] bg-white hover:bg-[#be7d69] hover:text-white col-span-1">View All</button>
+                </div>
+    <div className="grid lg:grid-flow-col md:grid-flow-row">
 <Card img="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-review-img-1.jpg"
 title="Grilled Flank Steak with Chimichurri"
 description="Potenti tincidunt arcu euismod curabitur iaculis ut aliquet facilisis pharetra, pharetra dolor scelerisque."

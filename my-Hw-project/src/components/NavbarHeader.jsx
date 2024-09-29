@@ -2,14 +2,15 @@
 function NavbarHeader() {
   return (
     <>
-    <div className="navbar font-bold">
+    <div className="navbar font-bold bg-none absolute  ">
     
-    <div className="navbar-start ">
+    <div className="navbar-start flex justify-end">
       
       <aside>
                     <img
-                        width="50"
-                        height="50"
+                    className=""
+                        width="64"
+                        height="auto"
 
                         src="https://websitedemos.net/food-blogger-02/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
 
@@ -17,18 +18,19 @@ function NavbarHeader() {
 
                    
                 </aside>
-    </div>
-    <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-      <li><a>HOME</a></li>
+      <li className="text-[#be7d69]"><a>HOME</a></li>
         <li><a>ABOUT</a></li>
         <li><a>REVIEWS</a></li>
         <li><a>VIDEOS</a></li>
         <li><a>CONTACT</a></li>
       </ul>
     </div>
+    </div>
     
-    <div className="navbar-end gap-3 invisible lg:visible">
+    
+    <div className="navbar-end gap-3 invisible lg:visible flex justify-center">
     <div className="grid grid-flow-col gap-4 ">
                         <a>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-youtube text-[#f5f5f5]" viewBox="0 0 16 16">

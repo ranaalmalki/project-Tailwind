@@ -4,7 +4,7 @@ function ClassRestaurant() {
     <div className="justify-center grid text-center">
         <h1 className="font-bold text-4xl">Best in Class Restaurant</h1>
         <p>Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra ac porttitor orci.</p>
-            <div className="grid grid-flow-col">
+            <div className="grid lg:grid-flow-col md:grid-flow-row">
                 <CardRestaurant
                 img="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-1.jpg"
                 title="Bern's Steak House"
@@ -23,7 +23,7 @@ function ClassRestaurant() {
                 
                 />
             </div>
-            <div className="grid grid-flow-col">
+            <div className="grid lg:grid-flow-col md:grid-flow-row">
                 <CardRestaurant
                 img="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-4.jpg"
                 title="Maniest Bake & Cake"

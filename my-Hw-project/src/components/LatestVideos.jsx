@@ -3,7 +3,7 @@ function LatestVideos() {
   return (
     <div className="grid justify-center">
 <h1 className="font-bold text-3xl">Latest Videos</h1>
-    <div className=" grid grid-flow-col justify-center gap-7">
+    <div className=" lg:grid lg:grid-flow-col justify-center gap-7 ">
 
         <div className="card w-96">
 

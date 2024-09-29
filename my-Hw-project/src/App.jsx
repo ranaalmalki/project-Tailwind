@@ -1,5 +1,6 @@
 import NavbarHeader from './components/NavbarHeader'
 import Welcome from './components/Welcome'
+import Fetured from './components/Fetured'
 import LatestReviews from './components/LatestReviews'
 import ClassRestaurant from './components/ClassRestaurant'
 import LatestVideos from './components/LatestVideos'
@@ -13,6 +14,7 @@ function App() {
     <>
       <NavbarHeader />
       <Welcome />
+      <Fetured/>
       <LatestReviews />
       <ClassRestaurant />
       <LatestVideos />
