@@ -83,12 +83,9 @@ src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/
             />
             </figure>
                 <div className="card-body">
-                <p className=" text-[#be7d69] divider ">Welcome</p>
-                <h1 className="card-title">I’m Dianna Adams</h1>
-                <h2 className="card-title">Food Critic / Influencer / Blogger</h2>
-<p className="card-text">Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra, ac porttitor orci.</p>
+                <h1 className="card-title">Sem nibh tristique ut laoreet amet tortor eu urna, ante urna aliquam tellus suscipit turpis turpis volutpat sed malesuada cras amet, donec eget molestie ipsum semper nunc aenean sagittis consequat.</h1>
 <div className="card-actions justify-end">
-                <button className="btn text-[#be7d69] bg-white hover:bg-[#be7d69] hover:text-white col-span-1">JOIN INSIDER</button>
+    
                 </div>
                 </div>
               
